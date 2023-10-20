@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: white; /* Изменим цвет шрифта на белый */
+}
+
+ul {
+  list-style-type: none; /* Убираем маркеры списка */
+  display: flex; /* Отображаем элементы списка в ряд */
+  flex-wrap: wrap; /* Разрешаем перенос элементов на новую строку */
+  justify-content: space-between; /* Распределение между элементами в ряду */
+  padding: 0;
+}
+
+li {
+  width: calc(
+    33.33% - 20px
+  ); /* Ширина каждой книги (33.33% с учетом отступов) */
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #847b72;
+  border-radius: 15px;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white; /* Изменим цвет шрифта на белый */
+}
+
+li img {
+  display: block;
+  margin: 0 auto 10px;
+  max-width: 100%; /* Максимальная ширина изображения */
+}
+
+h3 {
+  color: white; /* Изменим цвет шрифта на белый */
+}

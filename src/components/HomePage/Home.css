@@ -1,0 +1,96 @@
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: #847b72;
+}
+
+.link {
+  margin: 0 auto;
+  width: 260px;
+  padding-top: 5px;
+  height: 35px;
+  border-radius: 15px;
+  background-color: #847b72;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.search-container {
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.search-button {
+  font-size: 18px;
+  width: 90px;
+  background-color: #847b72;
+  height: 46px;
+  border: none;
+  border-radius: 0px 15px 15px 0;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+input {
+  width: 350px;
+  height: 40px;
+  border-radius: 15px 0 0 15px;
+  border: none;
+  color: white;
+  background-color: #847b72;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+::-webkit-input-placeholder {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+
+.book-results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.book-title {
+  color: white;
+}
+
+.bookContainer {
+  width: 500px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #847b72;
+  border-radius: 15px;
+}
+
+.book-image {
+  width: 250px;
+  height: 300px;
+  margin: 10px auto;
+  display: block;
+}
+
+.likedBookButton {
+  width: 250px;
+  height: 40px;
+  border: none;
+  background-color: #4b4944;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
